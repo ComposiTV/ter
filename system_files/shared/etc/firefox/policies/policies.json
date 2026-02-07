@@ -1,0 +1,40 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      }
+    },
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "SkipOnboarding": true
+    },
+    "DisableFormHistory": true,
+    "DisableFirefoxStudies": true,
+    "OfferToSaveLogins": false,
+    "PasswordManagerEnabled": false,
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "DisablePocket": true,
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Stories": false,
+      "SponsoredStories": false
+    },
+    "Homepage": {
+      "URL": "about:newtab"
+    },
+    "GenerativeAI": {
+      "Enabled": false
+    },
+    "SearchEngines": {
+      "Default": "DuckDuckGo",
+      "Remove": ["Perplexity", "Amazon.com", "eBay"]
+    }
+  }
+}
